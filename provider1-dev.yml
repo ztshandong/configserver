@@ -2,3 +2,14 @@ home:
   name: lisi
 server:
   port: 8861
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+      base-path: /actuator2
+  security:
+    enabled: false
