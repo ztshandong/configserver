@@ -1,7 +1,6 @@
 home:
   name: lisi
-server:
-  port: 8861
+
 management:
   endpoints:
     web:
