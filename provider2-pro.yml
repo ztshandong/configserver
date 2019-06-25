@@ -2,5 +2,6 @@ user:
   name: lisi
   age: 18
 spring:
-  aescbc:
-    iv2: asdfasdf
+  aes:
+    cbc:
+      iv2: asdfasdf
