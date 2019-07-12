@@ -9,7 +9,7 @@ management:
       cors:
         allowed-origins: "*"
         allowed-methods: "*"
-      base-path: /actuator2
+      base-path: /actuator
   security:
     enabled: false
   endpoint:
